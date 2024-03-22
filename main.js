@@ -15,7 +15,7 @@ document.querySelector('main').innerHTML = `
   <p>
       <a href="https://github.com/johnlangs">GitHub</a> |
       <a href="">LinkedIn</a> |
-      <a href="">Previous Work</a>
+      <a href="">Previous Works</a>
   </p>
   <p>
     ▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲
