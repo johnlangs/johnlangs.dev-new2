@@ -1,0 +1,31 @@
+   .badge {
+      height: 3.5rem;
+      border: .2rem solid #111;
+    }
+    figure.highlight {
+      margin-left: 0;
+      margin-right: 0;
+    }
+    .row {
+      display: flex;
+      flex-direction: column;
+      padding: 0;
+    }
+    .row .column {
+      display: block;
+      flex: 1 1 auto;
+      margin-left: 0;
+      max-width: 100%;
+      width: 100%;
+    }
+    @media (min-width: 40.0rem) {
+      .row {
+        flex-direction: row;
+        margin: 0 -1rem;
+        width: calc(100% + 2rem);
+      }
+      .row .column {
+        margin-bottom: inherit;
+        padding: 0 1.0rem;
+      }
+    }

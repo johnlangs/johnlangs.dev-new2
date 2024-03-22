@@ -1,0 +1,19 @@
+{
+  "name": "johnlangs.dev",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.2.0"
+  },
+  "dependencies": {
+    "concrete.css": "^2.1.1",
+    "normalize.css": "^8.0.1",
+    "three": "^0.162.0"
+  }
+}
