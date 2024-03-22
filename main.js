@@ -17,8 +17,12 @@ document.querySelector('main').innerHTML = `
       <a href="">LinkedIn</a>
   </p>
 
-  <img style="border: 2px solid black; border-radius: 10px;" src="/classroom.jpg" />
 </header>
+
+<section> 
+  <h2> Some work that I've done </h2>
+  <img style="border: 2px solid black; border-radius: 10px;" src="/classroom.jpg" />
+</section>
 `
 
 import { AsciiEffect } from 'three/addons/effects/AsciiEffect.js';
