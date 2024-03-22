@@ -14,17 +14,18 @@ document.querySelector('main').innerHTML = `
 
   <p>
       <a href="https://github.com/johnlangs">GitHub</a> |
-      <a href="">LinkedIn</a>
+      <a href="">LinkedIn</a> |
+      <a href="">Previous Work</a>
   </p>
   <p>
-    ▼▼▼▼▼▼▼▼
+    ▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲
   </p>
 </header>
 
-<section> 
-  <h2> Some work that I've done </h2>
-  <img style="border: 2px solid black; border-radius: 10px;" src="/classroom.jpg" />
-</section>
+<!-- <section>  -->
+<!--   <h2> Some work that I've done </h2> -->
+<!--   <img style="border: 2px solid black; border-radius: 10px;" src="/classroom.jpg" /> -->
+<!-- </section> -->
 `
 
 import { AsciiEffect } from 'three/addons/effects/AsciiEffect.js';
