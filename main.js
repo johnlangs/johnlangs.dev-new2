@@ -6,8 +6,6 @@ document.querySelector('main').innerHTML = `
 <header>
   <h1>John Langs</h1>
   
-  <!-- <img style="border: 2px solid black; border-radius: 10px;" src="/classroom.jpg" /> -->
-
   <div id="sphere"> </div>
 
   <p> 
@@ -18,6 +16,8 @@ document.querySelector('main').innerHTML = `
       <a href="https://github.com/johnlangs">GitHub</a> |
       <a href="">LinkedIn</a>
   </p>
+
+  <img style="border: 2px solid black; border-radius: 10px;" src="/classroom.jpg" />
 </header>
 `
 
